@@ -7,7 +7,7 @@
 //
 
 #import "ZCQViewController.h"
-
+#import <ZcqLog.h>
 @interface ZCQViewController ()
 
 @end
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[ZcqLog alloc]printZcqLog];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,16 @@
+PODS:
+  - ZcqComponets (0.1.0)
+
+DEPENDENCIES:
+  - ZcqComponets (from `../`)
+
+EXTERNAL SOURCES:
+  ZcqComponets:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZcqComponets: ce13a0505ea88b47ff82fee4c51f08d4d8ed06aa
+
+PODFILE CHECKSUM: 57556667def25b67d3f1a15a90149b1f3c666698
+
+COCOAPODS: 1.11.2

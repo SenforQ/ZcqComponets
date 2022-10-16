@@ -7,10 +7,14 @@
 #
 
 Pod::Spec.new do |s|
+  #库名称
   s.name             = 'ZcqComponets'
+  #版本号
   s.version          = '0.1.0'
+  #简短介绍
   s.summary          = 'A short description of ZcqComponets.'
-
+  #开源库描述
+  s.description      = <<-DESC
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -20,16 +24,20 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
-  s.homepage         = 'https://github.com/Z cq/ZcqComponets'
+  #开源库地址.
+  s.homepage         = 'https://github.com/SenforQ/ZcqComponets'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  #开源协议
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Z cq' => '494313298@qq.com' }
-  s.source           = { :git => 'https://github.com/Z cq/ZcqComponets.git', :tag => s.version.to_s }
+  #开源作者
+  s.author           = { 'SenforQ' => '494313298@qq.com' }
+  #原资源库文件
+  s.source           = { :git => 'https://github.com/SenforQ/ZcqComponets.git', :tag => s.version.to_s }
+  #社交网址
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  #开源库版本最低支持
   s.ios.deployment_target = '10.0'
-
+  #添加资源库文件
   s.source_files = 'ZcqComponets/Classes/**/*'
   
   # s.resource_bundles = {
@@ -37,6 +45,8 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
+  #依赖系统库，多个逗号隔开
   # s.frameworks = 'UIKit', 'MapKit'
+  #引入第三方依赖库.
   # s.dependency 'AFNetworking', '~> 2.3'
 end
