@@ -1,6 +1,6 @@
 PODS:
   - FDFullscreenPopGesture (1.1)
-  - ZcqComponets (0.1.0):
+  - ZcqComponets (0.1.1):
     - FDFullscreenPopGesture (~> 1.1)
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
-  ZcqComponets: 57e7b2dbe4a757c924f79da6fda9b85efcf9ae80
+  ZcqComponets: f171d5c98434ebafd5aea07a1712c53c0f7c4d47
 
 PODFILE CHECKSUM: 57556667def25b67d3f1a15a90149b1f3c666698
 

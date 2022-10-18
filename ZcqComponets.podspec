@@ -10,17 +10,17 @@ Pod::Spec.new do |s|
   #库名称
   s.name             = 'ZcqComponets'
   #版本号
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   #简短介绍
   s.summary          = '基本的配置，自定的NavBar，基础的VC框架，获取根目录的行为.'
   #开源库描述
-  s.description      = <<-DESC
+#  s.description      = <<-DESC
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  #开源库描述
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
@@ -39,9 +39,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   #添加资源库文件
   s.source_files = 'ZcqComponets/Classes/**/*'
-  
+#  s.resource = "ZcqComponets/Assets/ZCQImages.bundle"
    s.resource_bundles = {
-#     'ZcqComponets' => ['ZcqComponets/Assets/*.png']
       'ZcqComponets' => ['ZcqComponets/Assets/*.bundle']
    }
 
