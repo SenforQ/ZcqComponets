@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   #库名称
   s.name             = 'ZcqComponets'
   #版本号
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   #简短介绍
-  s.summary          = 'A short description of ZcqComponets.'
+  s.summary          = '基本的配置，自定的NavBar，基础的VC框架，获取根目录的行为.'
   #开源库描述
   s.description      = <<-DESC
 # This description is used to generate tags and improve search results.
@@ -40,13 +40,15 @@ TODO: Add long description of the pod here.
   #添加资源库文件
   s.source_files = 'ZcqComponets/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ZcqComponets' => ['ZcqComponets/Assets/*.png']
-  # }
+   s.resource_bundles = {
+#     'ZcqComponets' => ['ZcqComponets/Assets/*.png']
+      'ZcqComponets' => ['ZcqComponets/Assets/*.bundle']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   #依赖系统库，多个逗号隔开
   # s.frameworks = 'UIKit', 'MapKit'
   #引入第三方依赖库.
-  # s.dependency 'AFNetworking', '~> 2.3'
+#   s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'FDFullscreenPopGesture', '~> 1.1'
 end

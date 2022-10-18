@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "ZcqComponets/Classes/**/*"
+  "source_files": "ZcqComponets/Classes/**/*",
+  "resource_bundles": {
+    "ZcqComponets": [
+      "ZcqComponets/Assets/*.bundle"
+    ]
+  },
+  "dependencies": {
+    "FDFullscreenPopGesture": [
+      "~> 1.1"
+    ]
+  }
 }

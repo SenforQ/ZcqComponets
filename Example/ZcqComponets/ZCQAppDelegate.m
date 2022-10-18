@@ -7,12 +7,24 @@
 //
 
 #import "ZCQAppDelegate.h"
-
+#import <ZcqComponets/ZcqComponets.h>
+#import "ZCQDemoViewController.h"
 @implementation ZCQAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
     // Override point for customization after application launch.
+    //初始化window
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    //初始化配置
+    [ZCQCompontesConfig shared];
+    
+    ZCQDemoViewController* vc = [[ZCQDemoViewController alloc]init];
+    vc.title = @".";
+    ZCQNavigationController* navi = [[ZCQNavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController = navi;
     return YES;
 }
 

@@ -1,15 +1,22 @@
 PODS:
-  - ZcqComponets (0.1.0)
+  - FDFullscreenPopGesture (1.1)
+  - ZcqComponets (0.1.0):
+    - FDFullscreenPopGesture (~> 1.1)
 
 DEPENDENCIES:
   - ZcqComponets (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FDFullscreenPopGesture
 
 EXTERNAL SOURCES:
   ZcqComponets:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZcqComponets: ce13a0505ea88b47ff82fee4c51f08d4d8ed06aa
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  ZcqComponets: 57e7b2dbe4a757c924f79da6fda9b85efcf9ae80
 
 PODFILE CHECKSUM: 57556667def25b67d3f1a15a90149b1f3c666698
 

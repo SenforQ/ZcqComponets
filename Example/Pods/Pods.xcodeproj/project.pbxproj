@@ -7,79 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0121D55725DAE156C9D49C68E4B67ED8 /* ZcqLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E8E87C3C975F651633DF51AAFCB22F /* ZcqLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01CBE1B1FD700F5CB0B0C9EA0C60398D /* ZcqComponets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442E2E40E6C5537053F26752C05B2E1 /* ZcqComponets-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		063DE2A2AFCB08B2CCC24DDE923B2470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		06FDF50A18221970E8ADBD48D4254193 /* Pods-ZcqComponets_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F64AD22221EFF063F16C646002A32F /* Pods-ZcqComponets_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		087D2ED73CE991D9BDD557461A5E722C /* ZcqLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF2D4ABBB275FE2C6D4D5181D60DAB /* ZcqLog.m */; };
+		00CE74C986A9B78125E5BB94109A037A /* ZCQGetCurrentNavVCVender.m in Sources */ = {isa = PBXBuildFile; fileRef = A1132B7BA62D4F5F6066C3BF5474CAF8 /* ZCQGetCurrentNavVCVender.m */; };
+		1322F13671D552D1481C1BFF945071B1 /* ZCQBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB36235416585EFE6F4A06DDBCDC67F /* ZCQBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16CAEEA42E767947B9A33849FCE7D365 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F3A198FA44BDD881854041B51CA6B8 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		205797B385A07D0DA74B1970DE964845 /* ZCQCompontesConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2857ADE4F291F2027A99304C198D9530 /* ZCQCompontesConfig.m */; };
 		235612FF47DC0D60AFB3ADB2CDA25A5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3DE4481D3C21646D5DF5A9BC3058BCE6 /* ZCQGetCurrentNavVCVender.h in Headers */ = {isa = PBXBuildFile; fileRef = F5761A45C442DF18E8D2E5F4F482DDE2 /* ZCQGetCurrentNavVCVender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC232D6BA8076CA50BB5A2F89CDB71D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		49084844187B7F299F0BA3315A4CF15B /* ZCQImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A305F95C9804565C83B59429C8ABB6 /* ZCQImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		603B86992DA8F01943D0BE9517956CAE /* ZcqComponets.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6CD83C758DBB07752F6E5DFAEEF2F8 /* ZcqComponets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65CABCA7A9A257B57B5FBF689B716919 /* ZCQNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D91EC7CC85619994CE7F8601010279B /* ZCQNavBar.m */; };
+		6736C0D5F2651D0F9B825D6D884C1762 /* ZCQImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D44EC1B4B1EC4E6FE2B5173860372222 /* ZCQImages.bundle */; };
 		6838F629F55469B4D2930B9A0FE9C638 /* Pods-ZcqComponets_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C731CB78E14148A07986132001C0922A /* Pods-ZcqComponets_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D6882285211C4E7A588FFB29D4BEA95 /* ZcqComponets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485AB05AEDB62DC46D4A1DF72F633A6 /* ZcqComponets-dummy.m */; };
+		81437304EED83492F2902ADC59D69125 /* Pods-ZcqComponets_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CAF232BB5D82A1616B3B64D81C10FA /* Pods-ZcqComponets_Example-dummy.m */; };
+		86F339F0F124233D85702F2CFA97C8C0 /* ZCQCompontesConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DCA9ADF70275E503F5B75B121A0E84 /* ZCQCompontesConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88B352B49648967CFEBFEC31EBD4E120 /* ZcqComponets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C402BEA65CDAFE7A0DC2EFAFA84425CF /* ZcqComponets-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CBCE9B335D5E793F7669AB9331E48D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9031DD9B7D01BC6EB3E2F699864F50F3 /* ZcqComponets-ZcqComponets in Resources */ = {isa = PBXBuildFile; fileRef = 15634CC7DB69CC91E04723471915A438 /* ZcqComponets-ZcqComponets */; };
+		B1C3DAC40A6A191999577E648EFD5DE4 /* ZCQNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADBE0EFBD0D66E973F470AFF2666C64 /* ZCQNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B32819DAD2FBBB3440032B5E66093C0B /* ZCQImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F877CF37C5348E9BB45DE8C6DAB0833E /* ZCQImageManager.m */; };
+		BFA6F6FD924582E2D2753414AF618B51 /* ZcqComponets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5B4990D7C6C232469BF83063B9780D /* ZcqComponets-dummy.m */; };
+		C56998B9FDE191F911127728D3770614 /* FDFullscreenPopGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD12FC57CBEED7272D1F64CDEE4341F2 /* FDFullscreenPopGesture-dummy.m */; };
+		C56F01D18B0125F852FD372E52596B34 /* FDFullscreenPopGesture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6844489EC9FFEFE0A36CDD1FD051DB41 /* FDFullscreenPopGesture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAE59C58759B0D2FCF75E4BEAB2376A5 /* ZCQDeviceUIConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C4AAD28A080FC96B6F7FD55354BD2A /* ZCQDeviceUIConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC536A1EFE9784F046A76DD49F422772 /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = B2646780ADEC7B5FE16A461E86AA44AD /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D43EE73B4C47392D927A3A3E0185A44F /* ZCQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEE0C5DA97B9B2295ED9D859C9D96F7 /* ZCQBaseViewController.m */; };
+		D639D3FC5193222E6F51839242C59D1C /* ZCQNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7453CD097DE234E059918B1D78B47269 /* ZCQNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB273B27C7BD059299F7A1D9A70F23FA /* Pods-ZcqComponets_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F64AD22221EFF063F16C646002A32F /* Pods-ZcqComponets_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC00D417795A6A006EC3C8DBBE40ADC9 /* ZCQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3BF4D754C7989AF615B8AAFA80A1066 /* ZCQNavigationController.m */; };
 		DD63E3CC91D1FC391A9F552D1A561D8C /* Pods-ZcqComponets_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF1CF4DAD281557D6D9086A55CAF285 /* Pods-ZcqComponets_Tests-dummy.m */; };
-		E790B0C25EAAAC64004417BAE293A41D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FA137ECB2A4029539BEFE85139E5EA51 /* Pods-ZcqComponets_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CAF232BB5D82A1616B3B64D81C10FA /* Pods-ZcqComponets_Example-dummy.m */; };
+		DDC1D00C171D3C648A0F79B15FF9B00F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EFDE1C8225A60EB6697D6DB16C772603 /* ZCQNavConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F0984BB8672439EB3B8D556135045C77 /* ZCQNavConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		405AB9DE27690B208810DB74ACFF7A54 /* PBXContainerItemProxy */ = {
+		44806293777ED914946F66D1124069E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9771BC4AA1D66327DC981BFECFEF7CF1;
 			remoteInfo = ZcqComponets;
 		};
-		D8A66E38243DAFB9F945BC62AEC8C9FC /* PBXContainerItemProxy */ = {
+		52AB1866AFDBB9F09D24492F61570AE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 797B340FC2BB8E62B9789FF3C4887F07;
 			remoteInfo = "Pods-ZcqComponets_Example";
 		};
+		7FDB5FE1CFEA3FFBA1D2D3CBC983B6B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE0EB310F454719A11FBFEAAC09FE3E;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+		9CE8549F84553EC2BDA9BFD2DCA83CB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ECD7405B5169A2F698D3FD4C5EF4146;
+			remoteInfo = "ZcqComponets-ZcqComponets";
+		};
+		EA1CAE7ADC90617AA695B8C6EF70FA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FE0EB310F454719A11FBFEAAC09FE3E;
+			remoteInfo = FDFullscreenPopGesture;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0485AB05AEDB62DC46D4A1DF72F633A6 /* ZcqComponets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZcqComponets-dummy.m"; sourceTree = "<group>"; };
 		071DD424BEC74F5EB949D19451AD816E /* Pods-ZcqComponets_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZcqComponets_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1442E2E40E6C5537053F26752C05B2E1 /* ZcqComponets-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZcqComponets-umbrella.h"; sourceTree = "<group>"; };
+		0ADBE0EFBD0D66E973F470AFF2666C64 /* ZCQNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCQNavBar.h; sourceTree = "<group>"; };
+		15634CC7DB69CC91E04723471915A438 /* ZcqComponets-ZcqComponets */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ZcqComponets-ZcqComponets"; path = ZcqComponets.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C4AAD28A080FC96B6F7FD55354BD2A /* ZCQDeviceUIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCQDeviceUIConfig.h; path = ZcqComponets/Classes/ZCQDeviceUIConfig.h; sourceTree = "<group>"; };
 		1B560C9B66F402BB736551BC1BE9A4FF /* ZcqComponets */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZcqComponets; path = ZcqComponets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D42B8D5E6057E5F94AEE6E1C98FB5EE /* Pods-ZcqComponets_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZcqComponets_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2153F9861923BCB674BF2424A88BE5B0 /* ZcqComponets.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZcqComponets.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		233FDBD1429744F0645B77B3E97F5F0A /* Pods-ZcqComponets_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZcqComponets_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2521F14FA3011636A4A8EBA46E1A33C8 /* ZcqComponets-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZcqComponets-prefix.pch"; sourceTree = "<group>"; };
-		29E92CA57760B46FAD7017ABA3A09619 /* ZcqComponets-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZcqComponets-Info.plist"; sourceTree = "<group>"; };
+		24F3A198FA44BDD881854041B51CA6B8 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		2857ADE4F291F2027A99304C198D9530 /* ZCQCompontesConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCQCompontesConfig.m; path = ZcqComponets/Classes/ZCQCompontesConfig.m; sourceTree = "<group>"; };
+		2D91EC7CC85619994CE7F8601010279B /* ZCQNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCQNavBar.m; sourceTree = "<group>"; };
+		2FB36235416585EFE6F4A06DDBCDC67F /* ZCQBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCQBaseViewController.h; sourceTree = "<group>"; };
+		317918A3F7FE8DDB5882485D7831B4A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		31AC0A2C0C3769A74D3528783E3FAFAC /* Pods-ZcqComponets_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZcqComponets_Tests-Info.plist"; sourceTree = "<group>"; };
+		3242FA6FB6EFD8B106809824005FAAD5 /* FDFullscreenPopGesture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.debug.xcconfig; sourceTree = "<group>"; };
+		35C6C08BDB0FA0B79E7AB0837D5798CF /* ZcqComponets-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZcqComponets-prefix.pch"; sourceTree = "<group>"; };
 		3911579A2DD5DF7685BB6F7CC0D16CD7 /* Pods-ZcqComponets_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZcqComponets_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3BF1CF4DAD281557D6D9086A55CAF285 /* Pods-ZcqComponets_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZcqComponets_Tests-dummy.m"; sourceTree = "<group>"; };
 		419468162F49025BA59C732A7B94C3DF /* Pods-ZcqComponets_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZcqComponets_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4C23DD9E2DF310FBB959EADD97FE4266 /* Pods-ZcqComponets_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZcqComponets_Example"; path = Pods_ZcqComponets_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE236C3F4075CC999A2C7579D9DA069 /* Pods-ZcqComponets_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZcqComponets_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		56505C2A82C2C21C3F170453704083B1 /* Pods-ZcqComponets_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZcqComponets_Tests.modulemap"; sourceTree = "<group>"; };
+		5AB4E076067CF248E6181375AA6C183C /* ZcqComponets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZcqComponets.debug.xcconfig; sourceTree = "<group>"; };
+		5DEE0C5DA97B9B2295ED9D859C9D96F7 /* ZCQBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCQBaseViewController.m; sourceTree = "<group>"; };
+		5ED00B11272A8246C8DF66D59BCF1CD1 /* FDFullscreenPopGesture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.release.xcconfig; sourceTree = "<group>"; };
+		66BCE661D35B3BE03C5101540B8CB34F /* ZcqComponets-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZcqComponets-Info.plist"; sourceTree = "<group>"; };
+		6844489EC9FFEFE0A36CDD1FD051DB41 /* FDFullscreenPopGesture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-umbrella.h"; sourceTree = "<group>"; };
 		72313EC748DAF00270956BE5C92F22A9 /* Pods-ZcqComponets_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZcqComponets_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		78FF2D4ABBB275FE2C6D4D5181D60DAB /* ZcqLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZcqLog.m; path = ZcqComponets/Classes/ZcqLog.m; sourceTree = "<group>"; };
-		7C1716903BBC8B033D0FE7BE7DCDC447 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8DBA2874E5B8F9B4CAEB6550583FF3BF /* ZcqComponets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZcqComponets.debug.xcconfig; sourceTree = "<group>"; };
+		7453CD097DE234E059918B1D78B47269 /* ZCQNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCQNavigationController.h; sourceTree = "<group>"; };
+		85D03BEC2CA9B2DB28398618379E7744 /* FDFullscreenPopGesture */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDFullscreenPopGesture; path = FDFullscreenPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B7E19F6537B38009C908895DFCBBE7 /* ZcqComponets.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZcqComponets.modulemap; sourceTree = "<group>"; };
+		965BD26FCDB3C869563ACD939FC98F3C /* FDFullscreenPopGesture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FDFullscreenPopGesture.modulemap; sourceTree = "<group>"; };
 		9683FAF47E75AF2AC716DE38622C1D76 /* Pods-ZcqComponets_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZcqComponets_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0E8E87C3C975F651633DF51AAFCB22F /* ZcqLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZcqLog.h; path = ZcqComponets/Classes/ZcqLog.h; sourceTree = "<group>"; };
+		9E6CD83C758DBB07752F6E5DFAEEF2F8 /* ZcqComponets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZcqComponets.h; path = ZcqComponets/Classes/ZcqComponets.h; sourceTree = "<group>"; };
+		A1132B7BA62D4F5F6066C3BF5474CAF8 /* ZCQGetCurrentNavVCVender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCQGetCurrentNavVCVender.m; sourceTree = "<group>"; };
+		A4DCA9ADF70275E503F5B75B121A0E84 /* ZCQCompontesConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCQCompontesConfig.h; path = ZcqComponets/Classes/ZCQCompontesConfig.h; sourceTree = "<group>"; };
+		AAE5CF9903AA8A281D06C8135A88FE93 /* ZcqComponets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZcqComponets.release.xcconfig; sourceTree = "<group>"; };
+		B2646780ADEC7B5FE16A461E86AA44AD /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		B9CAF232BB5D82A1616B3B64D81C10FA /* Pods-ZcqComponets_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZcqComponets_Example-dummy.m"; sourceTree = "<group>"; };
-		BA4480BBD3F2741AACAB5A960CCFB935 /* ZcqComponets.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZcqComponets.modulemap; sourceTree = "<group>"; };
-		BF4BA4F47E680005124045C25F56D7A2 /* ZcqComponets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZcqComponets.release.xcconfig; sourceTree = "<group>"; };
+		BB5B4990D7C6C232469BF83063B9780D /* ZcqComponets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZcqComponets-dummy.m"; sourceTree = "<group>"; };
+		BF30CE2520355517F17C3C711FEC61FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BFF78D267924839EDCC123557A9D7DED /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
+		C3BF4D754C7989AF615B8AAFA80A1066 /* ZCQNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZCQNavigationController.m; sourceTree = "<group>"; };
+		C402BEA65CDAFE7A0DC2EFAFA84425CF /* ZcqComponets-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZcqComponets-umbrella.h"; sourceTree = "<group>"; };
 		C5F64AD22221EFF063F16C646002A32F /* Pods-ZcqComponets_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZcqComponets_Example-umbrella.h"; sourceTree = "<group>"; };
 		C731CB78E14148A07986132001C0922A /* Pods-ZcqComponets_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZcqComponets_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C8F6882D05045A60ABCBFA8C40516DF8 /* FDFullscreenPopGesture-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FDFullscreenPopGesture-Info.plist"; sourceTree = "<group>"; };
+		CD12FC57CBEED7272D1F64CDEE4341F2 /* FDFullscreenPopGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDFullscreenPopGesture-dummy.m"; sourceTree = "<group>"; };
+		D44EC1B4B1EC4E6FE2B5173860372222 /* ZCQImages.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZCQImages.bundle; path = ZcqComponets/Assets/ZCQImages.bundle; sourceTree = "<group>"; };
 		DA6D3DC1186BF5DC6AF3449E66767CC4 /* Pods-ZcqComponets_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZcqComponets_Tests"; path = Pods_ZcqComponets_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00EFCB75B6BCECE3EE06DC1BD7720D5 /* ResourceBundle-ZcqComponets-ZcqComponets-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZcqComponets-ZcqComponets-Info.plist"; sourceTree = "<group>"; };
+		E2A305F95C9804565C83B59429C8ABB6 /* ZCQImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCQImageManager.h; path = ZcqComponets/Classes/ZCQImageManager.h; sourceTree = "<group>"; };
 		E2E717F7700A4E016C9E3138DD2C4DC0 /* Pods-ZcqComponets_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZcqComponets_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3FD235DAF6A1C495F0B5E19FE1D9428 /* ZcqComponets.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZcqComponets.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F0984BB8672439EB3B8D556135045C77 /* ZCQNavConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCQNavConfig.h; path = ZcqComponets/Classes/ZCQNavConfig.h; sourceTree = "<group>"; };
 		F50D88C4640DF5BB118C0AA6B86473B7 /* Pods-ZcqComponets_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZcqComponets_Example.modulemap"; sourceTree = "<group>"; };
-		F7605A5DC924699FDDD4F6E68BDE5A24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F5761A45C442DF18E8D2E5F4F482DDE2 /* ZCQGetCurrentNavVCVender.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZCQGetCurrentNavVCVender.h; sourceTree = "<group>"; };
+		F877CF37C5348E9BB45DE8C6DAB0833E /* ZCQImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCQImageManager.m; path = ZcqComponets/Classes/ZCQImageManager.m; sourceTree = "<group>"; };
 		FD4EF3E00A28A5CF99642AA2C46F3789 /* Pods-ZcqComponets_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZcqComponets_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2FDACDCFBA658BDD18EFFD3B8C9F159C /* Frameworks */ = {
+		33D3A629D0BF574C2774C0B168C07B02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				063DE2A2AFCB08B2CCC24DDE923B2470 /* Foundation.framework in Frameworks */,
+				8CBCE9B335D5E793F7669AB9331E48D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5095C1F2A5217B6BCA18B8D12F7EE11A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC1D00C171D3C648A0F79B15FF9B00F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B66D8D41C1010B8BF15C0BDB9C78221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,11 +173,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4F9D04E13846A12E1BAD43D1451B7C6 /* Frameworks */ = {
+		EF46FE634748465808432AD31BA200E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E790B0C25EAAAC64004417BAE293A41D /* Foundation.framework in Frameworks */,
+				3FC232D6BA8076CA50BB5A2F89CDB71D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,24 +209,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		39E1C7C1D70A1D1E90374F90939D25B6 /* Pod */ = {
+		29FB86A8CCA592B0C5D0A6B4A989206F /* FDFullscreenPopGesture */ = {
 			isa = PBXGroup;
 			children = (
-				F7605A5DC924699FDDD4F6E68BDE5A24 /* LICENSE */,
-				7C1716903BBC8B033D0FE7BE7DCDC447 /* README.md */,
-				2153F9861923BCB674BF2424A88BE5B0 /* ZcqComponets.podspec */,
+				B2646780ADEC7B5FE16A461E86AA44AD /* UINavigationController+FDFullscreenPopGesture.h */,
+				24F3A198FA44BDD881854041B51CA6B8 /* UINavigationController+FDFullscreenPopGesture.m */,
+				9449690C70E076142A234C477C1F39C6 /* Support Files */,
 			);
-			name = Pod;
+			name = FDFullscreenPopGesture;
+			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
-		4C721C3CFD27DC9E40D15B344490D00A /* Products */ = {
+		2CC162EE8668F4E4C2CA50916C418C77 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4C23DD9E2DF310FBB959EADD97FE4266 /* Pods-ZcqComponets_Example */,
-				DA6D3DC1186BF5DC6AF3449E66767CC4 /* Pods-ZcqComponets_Tests */,
-				1B560C9B66F402BB736551BC1BE9A4FF /* ZcqComponets */,
+				317918A3F7FE8DDB5882485D7831B4A5 /* LICENSE */,
+				BF30CE2520355517F17C3C711FEC61FE /* README.md */,
+				E3FD235DAF6A1C495F0B5E19FE1D9428 /* ZcqComponets.podspec */,
 			);
-			name = Products;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -155,48 +238,81 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7C2113E0120E1E3CA5FB822D14378169 /* ZcqComponets */ = {
+		5F7C87117BC5673779BE9E72B265FCB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A0E8E87C3C975F651633DF51AAFCB22F /* ZcqLog.h */,
-				78FF2D4ABBB275FE2C6D4D5181D60DAB /* ZcqLog.m */,
-				39E1C7C1D70A1D1E90374F90939D25B6 /* Pod */,
-				BF276DAB10EA0469072A0F591B61EB33 /* Support Files */,
+				85D03BEC2CA9B2DB28398618379E7744 /* FDFullscreenPopGesture */,
+				4C23DD9E2DF310FBB959EADD97FE4266 /* Pods-ZcqComponets_Example */,
+				DA6D3DC1186BF5DC6AF3449E66767CC4 /* Pods-ZcqComponets_Tests */,
+				1B560C9B66F402BB736551BC1BE9A4FF /* ZcqComponets */,
+				15634CC7DB69CC91E04723471915A438 /* ZcqComponets-ZcqComponets */,
 			);
-			name = ZcqComponets;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		AC81968FE806BABDB802C8F7101F94A3 /* Development Pods */ = {
+		6BB81EDD78667643D9645BA6C47B69E0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7C2113E0120E1E3CA5FB822D14378169 /* ZcqComponets */,
+				0ADBE0EFBD0D66E973F470AFF2666C64 /* ZCQNavBar.h */,
+				2D91EC7CC85619994CE7F8601010279B /* ZCQNavBar.m */,
 			);
-			name = "Development Pods";
+			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
-		BF276DAB10EA0469072A0F591B61EB33 /* Support Files */ = {
+		83B6990F1355130D1A1230CA7DE36AC0 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				BA4480BBD3F2741AACAB5A960CCFB935 /* ZcqComponets.modulemap */,
-				0485AB05AEDB62DC46D4A1DF72F633A6 /* ZcqComponets-dummy.m */,
-				29E92CA57760B46FAD7017ABA3A09619 /* ZcqComponets-Info.plist */,
-				2521F14FA3011636A4A8EBA46E1A33C8 /* ZcqComponets-prefix.pch */,
-				1442E2E40E6C5537053F26752C05B2E1 /* ZcqComponets-umbrella.h */,
-				8DBA2874E5B8F9B4CAEB6550583FF3BF /* ZcqComponets.debug.xcconfig */,
-				BF4BA4F47E680005124045C25F56D7A2 /* ZcqComponets.release.xcconfig */,
+				7453CD097DE234E059918B1D78B47269 /* ZCQNavigationController.h */,
+				C3BF4D754C7989AF615B8AAFA80A1066 /* ZCQNavigationController.m */,
+			);
+			name = VC;
+			path = VC;
+			sourceTree = "<group>";
+		};
+		9449690C70E076142A234C477C1F39C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				965BD26FCDB3C869563ACD939FC98F3C /* FDFullscreenPopGesture.modulemap */,
+				CD12FC57CBEED7272D1F64CDEE4341F2 /* FDFullscreenPopGesture-dummy.m */,
+				C8F6882D05045A60ABCBFA8C40516DF8 /* FDFullscreenPopGesture-Info.plist */,
+				BFF78D267924839EDCC123557A9D7DED /* FDFullscreenPopGesture-prefix.pch */,
+				6844489EC9FFEFE0A36CDD1FD051DB41 /* FDFullscreenPopGesture-umbrella.h */,
+				3242FA6FB6EFD8B106809824005FAAD5 /* FDFullscreenPopGesture.debug.xcconfig */,
+				5ED00B11272A8246C8DF66D59BCF1CD1 /* FDFullscreenPopGesture.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZcqComponets";
+			path = "../Target Support Files/FDFullscreenPopGesture";
+			sourceTree = "<group>";
+		};
+		A5B0261BB412AC5739B6186D31B061DE /* GetCurrentVC */ = {
+			isa = PBXGroup;
+			children = (
+				F5761A45C442DF18E8D2E5F4F482DDE2 /* ZCQGetCurrentNavVCVender.h */,
+				A1132B7BA62D4F5F6066C3BF5474CAF8 /* ZCQGetCurrentNavVCVender.m */,
+			);
+			name = GetCurrentVC;
+			path = ZcqComponets/Classes/GetCurrentVC;
+			sourceTree = "<group>";
+		};
+		C45D46819E91AB555FC4ED3747CE6360 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				83B6990F1355130D1A1230CA7DE36AC0 /* VC */,
+				6BB81EDD78667643D9645BA6C47B69E0 /* View */,
+			);
+			name = NavigationController;
+			path = ZcqComponets/Classes/NavigationController;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AC81968FE806BABDB802C8F7101F94A3 /* Development Pods */,
+				D8CD4DCBDF0747137CA92AD30A216020 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				4C721C3CFD27DC9E40D15B344490D00A /* Products */,
+				D3E695E9C3B479315EBE9228036EDE81 /* Pods */,
+				5F7C87117BC5673779BE9E72B265FCB5 /* Products */,
 				28704D82186D90C425221251DAC17178 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -207,6 +323,22 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E695E9C3B479315EBE9228036EDE81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29FB86A8CCA592B0C5D0A6B4A989206F /* FDFullscreenPopGesture */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8CD4DCBDF0747137CA92AD30A216020 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E39649CA60D227BB886CB1FBD8E63AB1 /* ZcqComponets */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D93CC418442AA34BC45A73C286DCC2DA /* Pods-ZcqComponets_Example */ = {
@@ -226,14 +358,70 @@
 			path = "Target Support Files/Pods-ZcqComponets_Example";
 			sourceTree = "<group>";
 		};
+		DAB86FFFC94620E926948B4662355A8C /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				2FB36235416585EFE6F4A06DDBCDC67F /* ZCQBaseViewController.h */,
+				5DEE0C5DA97B9B2295ED9D859C9D96F7 /* ZCQBaseViewController.m */,
+			);
+			name = BaseVC;
+			path = ZcqComponets/Classes/BaseVC;
+			sourceTree = "<group>";
+		};
+		DDE2199BE83306EF3DC462967CBB1F81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E00EFCB75B6BCECE3EE06DC1BD7720D5 /* ResourceBundle-ZcqComponets-ZcqComponets-Info.plist */,
+				93B7E19F6537B38009C908895DFCBBE7 /* ZcqComponets.modulemap */,
+				BB5B4990D7C6C232469BF83063B9780D /* ZcqComponets-dummy.m */,
+				66BCE661D35B3BE03C5101540B8CB34F /* ZcqComponets-Info.plist */,
+				35C6C08BDB0FA0B79E7AB0837D5798CF /* ZcqComponets-prefix.pch */,
+				C402BEA65CDAFE7A0DC2EFAFA84425CF /* ZcqComponets-umbrella.h */,
+				5AB4E076067CF248E6181375AA6C183C /* ZcqComponets.debug.xcconfig */,
+				AAE5CF9903AA8A281D06C8135A88FE93 /* ZcqComponets.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZcqComponets";
+			sourceTree = "<group>";
+		};
+		E39649CA60D227BB886CB1FBD8E63AB1 /* ZcqComponets */ = {
+			isa = PBXGroup;
+			children = (
+				9E6CD83C758DBB07752F6E5DFAEEF2F8 /* ZcqComponets.h */,
+				A4DCA9ADF70275E503F5B75B121A0E84 /* ZCQCompontesConfig.h */,
+				2857ADE4F291F2027A99304C198D9530 /* ZCQCompontesConfig.m */,
+				18C4AAD28A080FC96B6F7FD55354BD2A /* ZCQDeviceUIConfig.h */,
+				E2A305F95C9804565C83B59429C8ABB6 /* ZCQImageManager.h */,
+				F877CF37C5348E9BB45DE8C6DAB0833E /* ZCQImageManager.m */,
+				D44EC1B4B1EC4E6FE2B5173860372222 /* ZCQImages.bundle */,
+				F0984BB8672439EB3B8D556135045C77 /* ZCQNavConfig.h */,
+				DAB86FFFC94620E926948B4662355A8C /* BaseVC */,
+				A5B0261BB412AC5739B6186D31B061DE /* GetCurrentVC */,
+				C45D46819E91AB555FC4ED3747CE6360 /* NavigationController */,
+				2CC162EE8668F4E4C2CA50916C418C77 /* Pod */,
+				DDE2199BE83306EF3DC462967CBB1F81 /* Support Files */,
+			);
+			name = ZcqComponets;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A423CFFBA60DEF4481F55E9F5D4A10AA /* Headers */ = {
+		157DE8DD02BD6F5B34A14CD666C44FB1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06FDF50A18221970E8ADBD48D4254193 /* Pods-ZcqComponets_Example-umbrella.h in Headers */,
+				C56F01D18B0125F852FD372E52596B34 /* FDFullscreenPopGesture-umbrella.h in Headers */,
+				CC536A1EFE9784F046A76DD49F422772 /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBAD442A0220D85322EFEBFF059AF11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB273B27C7BD059299F7A1D9A70F23FA /* Pods-ZcqComponets_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,12 +433,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6F4A2DD2CE2E0FDB94AF476A0A47BF4 /* Headers */ = {
+		F649C0E243260B4924825AEF6FA38B13 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01CBE1B1FD700F5CB0B0C9EA0C60398D /* ZcqComponets-umbrella.h in Headers */,
-				0121D55725DAE156C9D49C68E4B67ED8 /* ZcqLog.h in Headers */,
+				1322F13671D552D1481C1BFF945071B1 /* ZCQBaseViewController.h in Headers */,
+				603B86992DA8F01943D0BE9517956CAE /* ZcqComponets.h in Headers */,
+				88B352B49648967CFEBFEC31EBD4E120 /* ZcqComponets-umbrella.h in Headers */,
+				86F339F0F124233D85702F2CFA97C8C0 /* ZCQCompontesConfig.h in Headers */,
+				CAE59C58759B0D2FCF75E4BEAB2376A5 /* ZCQDeviceUIConfig.h in Headers */,
+				3DE4481D3C21646D5DF5A9BC3058BCE6 /* ZCQGetCurrentNavVCVender.h in Headers */,
+				49084844187B7F299F0BA3315A4CF15B /* ZCQImageManager.h in Headers */,
+				B1C3DAC40A6A191999577E648EFD5DE4 /* ZCQNavBar.h in Headers */,
+				EFDE1C8225A60EB6697D6DB16C772603 /* ZCQNavConfig.h in Headers */,
+				D639D3FC5193222E6F51839242C59D1C /* ZCQNavigationController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,35 +455,73 @@
 /* Begin PBXNativeTarget section */
 		797B340FC2BB8E62B9789FF3C4887F07 /* Pods-ZcqComponets_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61D0B9566BE69503986FC4AE5E4D264C /* Build configuration list for PBXNativeTarget "Pods-ZcqComponets_Example" */;
+			buildConfigurationList = 4B555736F99C8E456E935BE74C5DA1DA /* Build configuration list for PBXNativeTarget "Pods-ZcqComponets_Example" */;
 			buildPhases = (
-				A423CFFBA60DEF4481F55E9F5D4A10AA /* Headers */,
-				55D247BFCBFCE877DE6148E55AD3B9AB /* Sources */,
-				2FDACDCFBA658BDD18EFFD3B8C9F159C /* Frameworks */,
-				6FA531B3C4186324ECA4E05C50EA6096 /* Resources */,
+				5EBAD442A0220D85322EFEBFF059AF11 /* Headers */,
+				889A3ECCBA0A835789BACAF8FCAAA6E2 /* Sources */,
+				5095C1F2A5217B6BCA18B8D12F7EE11A /* Frameworks */,
+				E63275C75DA5951D696EDE539E2E22A3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5377EC2AE0509F6D3FDCDC0409823E47 /* PBXTargetDependency */,
+				B837E66F770E011475E196E2160DE586 /* PBXTargetDependency */,
+				304186DC4B17EEACCBC06CC1D3B45CD9 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZcqComponets_Example";
 			productName = Pods_ZcqComponets_Example;
 			productReference = 4C23DD9E2DF310FBB959EADD97FE4266 /* Pods-ZcqComponets_Example */;
 			productType = "com.apple.product-type.framework";
 		};
-		9771BC4AA1D66327DC981BFECFEF7CF1 /* ZcqComponets */ = {
+		8ECD7405B5169A2F698D3FD4C5EF4146 /* ZcqComponets-ZcqComponets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84AAF806845871A26A1826A902AEE7FF /* Build configuration list for PBXNativeTarget "ZcqComponets" */;
+			buildConfigurationList = 6A0ECFC7FC862A0795D3305146DDC6EF /* Build configuration list for PBXNativeTarget "ZcqComponets-ZcqComponets" */;
 			buildPhases = (
-				E6F4A2DD2CE2E0FDB94AF476A0A47BF4 /* Headers */,
-				A4CC5C97A0D9A1C9B29C5C822611F47B /* Sources */,
-				F4F9D04E13846A12E1BAD43D1451B7C6 /* Frameworks */,
-				53882A7F174439F94AD0759E8857D82E /* Resources */,
+				0179694D147804ACED58CF8DF2C4D6C2 /* Sources */,
+				6B66D8D41C1010B8BF15C0BDB9C78221 /* Frameworks */,
+				A936256AB2460EBF601B34C1E6E6BE23 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "ZcqComponets-ZcqComponets";
+			productName = ZcqComponets;
+			productReference = 15634CC7DB69CC91E04723471915A438 /* ZcqComponets-ZcqComponets */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8FE0EB310F454719A11FBFEAAC09FE3E /* FDFullscreenPopGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8286AD7220A7CC8C61F89481D2B99A /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */;
+			buildPhases = (
+				157DE8DD02BD6F5B34A14CD666C44FB1 /* Headers */,
+				5B29AD500F3EC71A63B886B4276A3868 /* Sources */,
+				33D3A629D0BF574C2774C0B168C07B02 /* Frameworks */,
+				C9BA0E2A0F675A20CDAEC2EA46671C5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDFullscreenPopGesture;
+			productName = FDFullscreenPopGesture;
+			productReference = 85D03BEC2CA9B2DB28398618379E7744 /* FDFullscreenPopGesture */;
+			productType = "com.apple.product-type.framework";
+		};
+		9771BC4AA1D66327DC981BFECFEF7CF1 /* ZcqComponets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947A6C6AAB13EBDF15FFA39020303418 /* Build configuration list for PBXNativeTarget "ZcqComponets" */;
+			buildPhases = (
+				F649C0E243260B4924825AEF6FA38B13 /* Headers */,
+				8E93C63784494952856185F21BAE01C8 /* Sources */,
+				EF46FE634748465808432AD31BA200E3 /* Frameworks */,
+				2190F5D9FD80475412ABB893ADC9656D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25E0C63720CF03B7CEF31B24C259D6A4 /* PBXTargetDependency */,
+				73D3B841525F3BDDC9F30645A05197F2 /* PBXTargetDependency */,
 			);
 			name = ZcqComponets;
 			productName = ZcqComponets;
@@ -306,7 +540,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				272322F11F3CBA8931B4AB896D96288A /* PBXTargetDependency */,
+				24E64E73C297D5EC19C7FB6BEB100AD1 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZcqComponets_Tests";
 			productName = Pods_ZcqComponets_Tests;
@@ -331,29 +565,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4C721C3CFD27DC9E40D15B344490D00A /* Products */;
+			productRefGroup = 5F7C87117BC5673779BE9E72B265FCB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				8FE0EB310F454719A11FBFEAAC09FE3E /* FDFullscreenPopGesture */,
 				797B340FC2BB8E62B9789FF3C4887F07 /* Pods-ZcqComponets_Example */,
 				CFE0287ABF5B048D9709DE4969C4E9AC /* Pods-ZcqComponets_Tests */,
 				9771BC4AA1D66327DC981BFECFEF7CF1 /* ZcqComponets */,
+				8ECD7405B5169A2F698D3FD4C5EF4146 /* ZcqComponets-ZcqComponets */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		53882A7F174439F94AD0759E8857D82E /* Resources */ = {
+		2190F5D9FD80475412ABB893ADC9656D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FA531B3C4186324ECA4E05C50EA6096 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9031DD9B7D01BC6EB3E2F699864F50F3 /* ZcqComponets-ZcqComponets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,9 +594,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A936256AB2460EBF601B34C1E6E6BE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6736C0D5F2651D0F9B825D6D884C1762 /* ZCQImages.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BA0E2A0F675A20CDAEC2EA46671C5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63275C75DA5951D696EDE539E2E22A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0179694D147804ACED58CF8DF2C4D6C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5171266986766E0B43BFAFAEC6EEDECA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -375,79 +634,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55D247BFCBFCE877DE6148E55AD3B9AB /* Sources */ = {
+		5B29AD500F3EC71A63B886B4276A3868 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA137ECB2A4029539BEFE85139E5EA51 /* Pods-ZcqComponets_Example-dummy.m in Sources */,
+				C56998B9FDE191F911127728D3770614 /* FDFullscreenPopGesture-dummy.m in Sources */,
+				16CAEEA42E767947B9A33849FCE7D365 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4CC5C97A0D9A1C9B29C5C822611F47B /* Sources */ = {
+		889A3ECCBA0A835789BACAF8FCAAA6E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D6882285211C4E7A588FFB29D4BEA95 /* ZcqComponets-dummy.m in Sources */,
-				087D2ED73CE991D9BDD557461A5E722C /* ZcqLog.m in Sources */,
+				81437304EED83492F2902ADC59D69125 /* Pods-ZcqComponets_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E93C63784494952856185F21BAE01C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43EE73B4C47392D927A3A3E0185A44F /* ZCQBaseViewController.m in Sources */,
+				BFA6F6FD924582E2D2753414AF618B51 /* ZcqComponets-dummy.m in Sources */,
+				205797B385A07D0DA74B1970DE964845 /* ZCQCompontesConfig.m in Sources */,
+				00CE74C986A9B78125E5BB94109A037A /* ZCQGetCurrentNavVCVender.m in Sources */,
+				B32819DAD2FBBB3440032B5E66093C0B /* ZCQImageManager.m in Sources */,
+				65CABCA7A9A257B57B5FBF689B716919 /* ZCQNavBar.m in Sources */,
+				DC00D417795A6A006EC3C8DBBE40ADC9 /* ZCQNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		272322F11F3CBA8931B4AB896D96288A /* PBXTargetDependency */ = {
+		24E64E73C297D5EC19C7FB6BEB100AD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ZcqComponets_Example";
 			target = 797B340FC2BB8E62B9789FF3C4887F07 /* Pods-ZcqComponets_Example */;
-			targetProxy = D8A66E38243DAFB9F945BC62AEC8C9FC /* PBXContainerItemProxy */;
+			targetProxy = 52AB1866AFDBB9F09D24492F61570AE9 /* PBXContainerItemProxy */;
 		};
-		5377EC2AE0509F6D3FDCDC0409823E47 /* PBXTargetDependency */ = {
+		25E0C63720CF03B7CEF31B24C259D6A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDFullscreenPopGesture;
+			target = 8FE0EB310F454719A11FBFEAAC09FE3E /* FDFullscreenPopGesture */;
+			targetProxy = EA1CAE7ADC90617AA695B8C6EF70FA96 /* PBXContainerItemProxy */;
+		};
+		304186DC4B17EEACCBC06CC1D3B45CD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZcqComponets;
 			target = 9771BC4AA1D66327DC981BFECFEF7CF1 /* ZcqComponets */;
-			targetProxy = 405AB9DE27690B208810DB74ACFF7A54 /* PBXContainerItemProxy */;
+			targetProxy = 44806293777ED914946F66D1124069E0 /* PBXContainerItemProxy */;
+		};
+		73D3B841525F3BDDC9F30645A05197F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZcqComponets-ZcqComponets";
+			target = 8ECD7405B5169A2F698D3FD4C5EF4146 /* ZcqComponets-ZcqComponets */;
+			targetProxy = 9CE8549F84553EC2BDA9BFD2DCA83CB5 /* PBXContainerItemProxy */;
+		};
+		B837E66F770E011475E196E2160DE586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDFullscreenPopGesture;
+			target = 8FE0EB310F454719A11FBFEAAC09FE3E /* FDFullscreenPopGesture */;
+			targetProxy = 7FDB5FE1CFEA3FFBA1D2D3CBC983B6B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		39A8CA973F7A19B8B8F26AE830BCB653 /* Debug */ = {
+		382B2079294ACBCB8B2D89096F6A19CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD4EF3E00A28A5CF99642AA2C46F3789 /* Pods-ZcqComponets_Example.debug.xcconfig */;
+			baseConfigurationReference = AAE5CF9903AA8A281D06C8135A88FE93 /* ZcqComponets.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ZcqComponets_Example/Pods-ZcqComponets_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZcqComponets";
+				IBSC_MODULE = ZcqComponets;
+				INFOPLIST_FILE = "Target Support Files/ZcqComponets/ResourceBundle-ZcqComponets-ZcqComponets-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ZcqComponets_Example/Pods-ZcqComponets_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ZcqComponets;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		4F557E9D75F8E6B291AEDF35AD9DBBD6 /* Debug */ = {
+		5A5238D2E289609F5EE4DF8CC7F5552B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DBA2874E5B8F9B4CAEB6550583FF3BF /* ZcqComponets.debug.xcconfig */;
+			baseConfigurationReference = 5ED00B11272A8246C8DF66D59BCF1CD1 /* FDFullscreenPopGesture.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -456,14 +729,45 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZcqComponets/ZcqComponets-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZcqComponets/ZcqComponets-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZcqComponets/ZcqComponets.modulemap";
-				PRODUCT_MODULE_NAME = ZcqComponets;
-				PRODUCT_NAME = ZcqComponets;
+				MODULEMAP_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture.modulemap";
+				PRODUCT_MODULE_NAME = FDFullscreenPopGesture;
+				PRODUCT_NAME = FDFullscreenPopGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7263FB0D353920ED363609A9B7291175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3242FA6FB6EFD8B106809824005FAAD5 /* FDFullscreenPopGesture.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture.modulemap";
+				PRODUCT_MODULE_NAME = FDFullscreenPopGesture;
+				PRODUCT_NAME = FDFullscreenPopGesture;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -536,6 +840,22 @@
 			};
 			name = Release;
 		};
+		7F758E0C94DD584D58B162E13A765584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB4E076067CF248E6181375AA6C183C /* ZcqComponets.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZcqComponets";
+				IBSC_MODULE = ZcqComponets;
+				INFOPLIST_FILE = "Target Support Files/ZcqComponets/ResourceBundle-ZcqComponets-ZcqComponets-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ZcqComponets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		8293E923FF0AD0E3429910F09475F65B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4CE236C3F4075CC999A2C7579D9DA069 /* Pods-ZcqComponets_Tests.release.xcconfig */;
@@ -590,6 +910,71 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ZcqComponets_Tests/Pods-ZcqComponets_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9929AFDAF968AD708173B8969458DFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE5CF9903AA8A281D06C8135A88FE93 /* ZcqComponets.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZcqComponets/ZcqComponets-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZcqComponets/ZcqComponets-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZcqComponets/ZcqComponets.modulemap";
+				PRODUCT_MODULE_NAME = ZcqComponets;
+				PRODUCT_NAME = ZcqComponets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C287DE8F79B2DD11441BB593235D891C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD4EF3E00A28A5CF99642AA2C46F3789 /* Pods-ZcqComponets_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZcqComponets_Example/Pods-ZcqComponets_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZcqComponets_Example/Pods-ZcqComponets_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -669,39 +1054,7 @@
 			};
 			name = Debug;
 		};
-		F4F65DC8E194716EE29B54E0138B8B50 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF4BA4F47E680005124045C25F56D7A2 /* ZcqComponets.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZcqComponets/ZcqComponets-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZcqComponets/ZcqComponets-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZcqComponets/ZcqComponets.modulemap";
-				PRODUCT_MODULE_NAME = ZcqComponets;
-				PRODUCT_NAME = ZcqComponets;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FEEF5B3C7EC5DFDC466BA492BDF80439 /* Release */ = {
+		E1856535BA3512D708BB7D9B38E149D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9683FAF47E75AF2AC716DE38622C1D76 /* Pods-ZcqComponets_Example.release.xcconfig */;
 			buildSettings = {
@@ -735,6 +1088,37 @@
 			};
 			name = Release;
 		};
+		F2A6D97B9E3433B18AFDDA01D053D647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB4E076067CF248E6181375AA6C183C /* ZcqComponets.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZcqComponets/ZcqComponets-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZcqComponets/ZcqComponets-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZcqComponets/ZcqComponets.modulemap";
+				PRODUCT_MODULE_NAME = ZcqComponets;
+				PRODUCT_NAME = ZcqComponets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -747,20 +1131,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61D0B9566BE69503986FC4AE5E4D264C /* Build configuration list for PBXNativeTarget "Pods-ZcqComponets_Example" */ = {
+		4B555736F99C8E456E935BE74C5DA1DA /* Build configuration list for PBXNativeTarget "Pods-ZcqComponets_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39A8CA973F7A19B8B8F26AE830BCB653 /* Debug */,
-				FEEF5B3C7EC5DFDC466BA492BDF80439 /* Release */,
+				C287DE8F79B2DD11441BB593235D891C /* Debug */,
+				E1856535BA3512D708BB7D9B38E149D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84AAF806845871A26A1826A902AEE7FF /* Build configuration list for PBXNativeTarget "ZcqComponets" */ = {
+		6A0ECFC7FC862A0795D3305146DDC6EF /* Build configuration list for PBXNativeTarget "ZcqComponets-ZcqComponets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F557E9D75F8E6B291AEDF35AD9DBBD6 /* Debug */,
-				F4F65DC8E194716EE29B54E0138B8B50 /* Release */,
+				7F758E0C94DD584D58B162E13A765584 /* Debug */,
+				382B2079294ACBCB8B2D89096F6A19CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947A6C6AAB13EBDF15FFA39020303418 /* Build configuration list for PBXNativeTarget "ZcqComponets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A6D97B9E3433B18AFDDA01D053D647 /* Debug */,
+				9929AFDAF968AD708173B8969458DFD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -770,6 +1163,15 @@
 			buildConfigurations = (
 				946A8D057E4E89C6D9FE5E3BAE80E547 /* Debug */,
 				8293E923FF0AD0E3429910F09475F65B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA8286AD7220A7CC8C61F89481D2B99A /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7263FB0D353920ED363609A9B7291175 /* Debug */,
+				5A5238D2E289609F5EE4DF8CC7F5552B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
