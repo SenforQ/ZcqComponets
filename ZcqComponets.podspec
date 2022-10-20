@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   #库名称
   s.name             = 'ZcqComponets'
   #版本号
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   #简短介绍
   s.summary          = '基本的配置，自定的NavBar，基础的VC框架，获取根目录的行为.'
   #开源库描述

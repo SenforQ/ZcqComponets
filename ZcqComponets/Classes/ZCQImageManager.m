@@ -14,7 +14,7 @@
     NSBundle* frameBundle = [NSBundle bundleForClass:[self class]];
     NSString* ZcqComponetsPath = [frameBundle pathForResource:@"ZcqComponets" ofType:@"bundle"];
     NSBundle* ZcqComponetsPathBundle = [NSBundle bundleWithPath:ZcqComponetsPath];
-    NSString* ZCQImagesPathBundlePathStr = [ZcqComponetsPathBundle pathForResource:@"ZCQImages" ofType:@"bundle"];
+    NSString* ZCQImagesPathBundlePathStr = [ZcqComponetsPathBundle pathForResource:bundleName ofType:@"bundle"];
     NSLog(@"ZCQImagesPathBundlePathStr : %@",ZCQImagesPathBundlePathStr);
     // 获取当前bundle的名称
     NSBundle* targetBundle = [NSBundle bundleWithPath:ZCQImagesPathBundlePathStr];
