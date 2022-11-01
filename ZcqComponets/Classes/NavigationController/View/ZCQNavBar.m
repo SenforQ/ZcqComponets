@@ -43,7 +43,7 @@
         [_navLeftButton setImage:leftBtnImg forState:UIControlStateNormal];
         [_navLeftButton.titleLabel setFont:[UIFont systemFontOfSize:14]];
         [_navLeftButton setTitleColor:UIColor.blackColor forState:UIControlStateNormal];
-        [_navLeftButton addTarget:self action:@selector(navRightClick) forControlEvents:UIControlEventTouchUpInside];
+        [_navLeftButton addTarget:self action:@selector(backClick) forControlEvents:UIControlEventTouchUpInside];
     }
     return _navLeftButton;
 }

@@ -18,6 +18,7 @@ static ZCQCompontesConfig * _defaultManager = nil;
         _defaultManager = [[ZCQCompontesConfig alloc] init];
         _defaultManager.isUsedCustomNavBar = YES;
         _defaultManager.usedCutomNavBarBGColor = [UIColor whiteColor];
+        _defaultManager.baseVCColor = [UIColor whiteColor];
         _defaultManager.usedCutomNavBarLeftImge = [ZCQImageManager imageWithBundleName:@"ZCQImages" imageName:@"zcq_navBackArrow"];
     });
     return _defaultManager;

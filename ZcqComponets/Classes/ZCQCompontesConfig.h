@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ZCQCompontesConfig : NSObject
@@ -21,6 +21,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy)UIColor* usedCutomNavBarBGColor;
 //使用自定义的NavBar，默认为zcq_navBackArrow
 @property (nonatomic, copy)UIImage* usedCutomNavBarLeftImge;
+//项目名字
+@property (nonatomic, copy)NSString* bundleDisplayNameStr;
+//项目版本
+@property (nonatomic, copy)NSString* bundleShortVersionString;
 
 @end
 

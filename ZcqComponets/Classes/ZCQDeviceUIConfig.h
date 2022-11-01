@@ -18,9 +18,9 @@
 #define CurreentViewWidth  self.view.frame.size.width
 
 //以375*667为原型进行约束比例
-#define ScaleW(width) MainScreenWidth / 375.0 * width
-//#define ScaleH(height) MainScreenHeight / 667.0 * height
-#define ScaleH(height) MainScreenHeight / 812 * height
+#define ScaleW(width) ((MainScreenWidth / 375.0) * width)
+#define ScaleH(height) ((MainScreenHeight / 667.0) * height)
+#define ScaleXH(height) ((MainScreenHeight / 812.0) * height)
 
 //颜色宏定义.
 #define RGBHex(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
