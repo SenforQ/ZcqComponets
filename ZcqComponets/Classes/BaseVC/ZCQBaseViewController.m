@@ -58,7 +58,19 @@
 //    [self.view addSubview:view];
     [self isUsedCustomNavBar:[ZCQCompontesConfig shared].isUsedCustomNavBar];
     self.navBarView.title = self.title;
+    
+    if(self.isBanSlideBack){
+        [self configNoSlideBack];
+    }
 }
+
+- (void)configNoSlideBack{
+    //禁止侧滑
+    id traget = self.navigationController.interactivePopGestureRecognizer.delegate;
+    UIPanGestureRecognizer* pan = [[UIPanGestureRecognizer alloc]initWithTarget:traget action:nil];
+    [self.view addGestureRecognizer:pan];
+}
+
 
 -(void)isUsedCustomNavBar:(BOOL)isCustomNavBar{
     if (isCustomNavBar) {

@@ -258,7 +258,7 @@
 				ORGANIZATIONNAME = "Z cq";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = BX95GQA4FA;
+						DevelopmentTeam = 6Y6Y4BKWTX;
 					};
 					6003F5AD195388D20070C39A = {
 						DevelopmentTeam = BX95GQA4FA;
@@ -542,7 +542,7 @@
 			baseConfigurationReference = 42EFBF7ED4A6D33725218390 /* Pods-ZcqComponets_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BX95GQA4FA;
+				DEVELOPMENT_TEAM = 6Y6Y4BKWTX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZcqComponets/ZcqComponets-Prefix.pch";
 				INFOPLIST_FILE = "ZcqComponets/ZcqComponets-Info.plist";
@@ -560,7 +560,7 @@
 			baseConfigurationReference = 1F3264DACF63F291FEA4B030 /* Pods-ZcqComponets_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BX95GQA4FA;
+				DEVELOPMENT_TEAM = 6Y6Y4BKWTX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZcqComponets/ZcqComponets-Prefix.pch";
 				INFOPLIST_FILE = "ZcqComponets/ZcqComponets-Info.plist";

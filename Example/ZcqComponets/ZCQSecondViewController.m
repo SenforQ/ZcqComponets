@@ -7,7 +7,6 @@
 //
 
 #import "ZCQSecondViewController.h"
-
 @interface ZCQSecondViewController ()
 
 @end
@@ -18,16 +17,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor redColor];
+//    [self configNoSlideBack];
+    UIButton* senderBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 200, 44)];
+    [senderBtn setTitle:@"发送" forState:UIControlStateNormal];
+    senderBtn.backgroundColor = [UIColor blueColor];
+    [senderBtn addTarget:self action:@selector(senderBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:senderBtn];
+//    if (senderBtn) {
+//
+//    }
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)senderBtnClick:(UIButton*)sender{
+    ZCQSecondViewController* vc = [[ZCQSecondViewController alloc]init];
+    vc.title = @"NoSlideBack";
+    [self.navigationController pushViewController:vc animated:YES];
 }
-*/
 
 @end
